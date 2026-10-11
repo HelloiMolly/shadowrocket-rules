@@ -1,0 +1,16 @@
+# 红果短剧直连规则（Shadowrocket 规则集）
+# 订阅方式：小火箭 → 配置 → 规则集 → 右上角 + → 粘贴 Raw 链接
+# 注意：确保该规则集排在 MATCH 兜底规则之前
+
+# 广告与统计
+DOMAIN-SUFFIX,zijieapi.com,DIRECT
+# 主接口（番茄小说/红果同源）
+DOMAIN-SUFFIX,fqnovel.com,DIRECT
+# 图片与签名
+DOMAIN-SUFFIX,fqnovelpic.com,DIRECT
+# 字节图片 CDN
+DOMAIN-SUFFIX,byteimg.com,DIRECT
+# 视频流 CDN
+DOMAIN-SUFFIX,qznovelvod.com,DIRECT
+# 抖音图片 CDN（红果共用）
+DOMAIN-SUFFIX,douyinpic.com,DIRECT
