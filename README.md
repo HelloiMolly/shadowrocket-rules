@@ -1,8 +1,4 @@
-# shadowrocket-rules
 # Shadowrocket 分流规则
-
-## hongguo-direct.list
-让红果短剧 App 直连、不走代理的规则集。
 
 ### 使用方法
 1. 小火箭 → 底部「配置」→ 点进正在用的配置文件 →「规则集」
